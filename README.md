@@ -37,7 +37,7 @@ Redeclared("INSERT x number")  # Duplicate declaration
 Undeclared("ASSIGN y 10")      # Unknown identifier 
 TypeMismatch("ASSIGN str '123'") # Invalid type assignment
 UnclosedBlock(1)               # Missing END for level 1 block
-
+```
 ## 🚀 How to Run the Program
 ```bash
 python main.py
